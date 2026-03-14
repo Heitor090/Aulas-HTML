@@ -123,6 +123,44 @@
 
       <input type="button" value="Botão" onclick="alert('Botão clicado!')" />
 
+      <label for="mensagem">Mensagem:</label>
+      <textarea name="mensagem" rows="5"></textarea>
+
+      <br />
+      <br />
+
+      <label for="Cidade">Cidade:</label>
+      <select name="Cidade" id="Cidade">
+        <option value="">São Paulo</option>
+        <option value="">Rio de Janeiro</option>
+        <option value="">Salvador</option>
+        <option value="">Natal</option>
+        <option value="">Guaira</option>
+      </select>
+      <br />
+      <br />
+
+      <label for="Linguagens">Linguagens de Programaçã</label>
+      <select name="Linguagens" multiple size="6" id="Linguagens">
+        <option value="c#">C#</option>
+        <option value="python">Python</option>
+        <option value="java">Java</option>
+        <option value="ruby">Ruby</option>
+        <option value="portugol">Portugol</option>
+      </select>
+      <br />
+      <br />
+      <input list="navegadores" name="navegador" />
+      <datalist id="navegadores">
+        <option value="Chrome"></option>
+        <option value="Edge"></option>
+        <option value="Safari"></option>
+        <option value="Opera"></option>
+        <option value="FireFox"></option>
+        <br />
+        <br />
+      </datalist>
+
       <input type="submit" value="Enviar" />
     </form>
   </body>
