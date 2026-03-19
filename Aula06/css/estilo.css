@@ -1,0 +1,79 @@
+
+ 
+    .card{
+        background-color: white;
+        padding: 50px;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        max-width: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-conteiner{
+  display: flex;
+  justify-content: center;
+  align-items: center;     
+  min-height: 100vh;       
+  background: linear-gradient(135deg, #6A72D9, #9d45e6); /* Gradiente do fundo */
+
+    }
+    .foto-perfil{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover ;
+          box-shadow: 0, 0, 10px, 5px #e0e6f0;
+        border:solid 3px #dadada;
+    }
+    .tag {
+  background-color: #ffffff;
+  color: #6a82fb;                
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 6px 16px;
+  border-radius: 50px;       
+  border: 1px solid #e0e6f0;  
+  box-shadow: 0, 0, 10px, 5px #e0e6f0
+}
+.habilidades-container {
+  display: flex;       
+  flex-wrap: wrap;      
+  justify-content: center; 
+  gap: 10px;           
+  margin-top: 20px;       
+  margin-bottom: 30px;    
+  max-width: 250px;   
+   box-shadow: 0, 0, 10px, 5px #e0e6f0 
+}
+
+.contato{
+ background: linear-gradient(135deg, #6A72D9, #9d45e6);
+  color: white;                
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 20px 20px;
+  border-radius: 50px;       
+  border: 1px solid #e0e6f0;  
+    box-shadow: 0, 0, 10px, 5px #e0e6f0
+}
+
+.topico{
+    color: Black;                
+    font-family: sans-serif;
+}
+.subtituloColorido{
+    color: #6a82fb;                
+    font-family: sans-serif;
+}
+.titulo{
+     color: Black;                
+    font-family: sans-serif;
+}
+.paragrafo{
+    color: Black;                
+    font-family: sans-serif;
+}
