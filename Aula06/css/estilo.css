@@ -62,7 +62,7 @@
 }
 
 .topico{
-    color: Black;                
+     color: Black;                
     font-family: sans-serif;
 }
 .subtituloColorido{
@@ -74,6 +74,6 @@
     font-family: sans-serif;
 }
 .paragrafo{
-    color: Black;                
+    color: rgb(99, 98, 98);                
     font-family: sans-serif;
 }
