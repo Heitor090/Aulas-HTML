@@ -5,25 +5,30 @@
     box-sizing: border-box;
  }
 header{
- background-color: #0A1931;
+ background-color: #1e3252 ;
 display: flex;
 flex-direction: column;
+
+
 
 }
 .logo{
     width: 150px;
     height: 15px;
+ 
     
 }
 .menu{
     width: 30px;
     height: 30px;
+     
 }
 .logomenu{
    display: flex;
     justify-content: space-between;
-    padding: 5px 15px;
+    padding: 5px;
     align-items: center;
+    
 }
 .btn-cadastro
 {
@@ -56,12 +61,14 @@ hr{
 .h1-dois{
     color: white;
     font-family: 'Segoe UI';
-    font-size: 45px;
+    font-size: 35px;
+    padding: 15px;
 }
 p{
     color: #b5bdc9;
     font-family: 'Segoe UI';
-    font-size: 20px;
+    font-size: 18px;
+    padding: 15px;
 }
 .btn {
     display: flex;
@@ -76,20 +83,20 @@ p{
 
 .btn button, .btn-comecar, .btn-saiba {
     font-family: sans-serif;
-    font-size: 16px;        
-    font-weight: 600;       
+    font-size: 13px;        
+    font-weight: 60;       
     border-radius: 10px;
     text-align: center;
     cursor: pointer;
     box-sizing: border-box; 
     width: 90%;             
-    max-width: 400px;        
+    max-width: 600px;        
 
 }
 .btn-comecar {
     background-color: #E87030;
     color: white;
-    padding: 15px 0;
+    padding: 10px 0 10px;
     border: 1px solid #E87030;
     margin: 0;
 }
@@ -98,7 +105,7 @@ p{
 .btn-saiba {
     background-color: transparent;
     color: white;
-    padding: 15px 0;
+    padding: 10px 0 10px;
     border: 2px solid white; /* Borda um pouco mais grossa para destaque */
     margin: 0;
     
@@ -113,59 +120,60 @@ p{
 .h1-tres{
     color: black;
     font-family: 'Segoe UI';
-    font-size: 30px;
+    font-size: 25px;
     justify-content: center;
     display: flex;
+    padding: 10px;
 }
 .index{
   background-color: white;
-      margin: 40px 30px;
+      margin: 30px 10px;
       padding: 20px;
       text-align: center;
       border: 1px solid rgb(228, 228, 228);
       border-radius: 10%;
-      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+      box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.1);
      
 }
 .icone-um{
-    width: 10px;
+    width: 50px;
    
 }
 
 .h1-index{
     color: black;
     font-family: 'Segoe UI';
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .h2-index{
    
   font-family: Arial;
   color: rgb(39, 39, 39);
-  font-size: 20px;
+  font-size: 15px;
 }
 .perfil{
    background-color: rgb(202, 202, 202);
-      margin: 40px 30px;
-      padding: 20px;
+      margin: 40px 20px 20px 20px;
+      padding: 10px;
       text-align: center;
       border: 1px solid rgb(228, 223, 223);
       border-radius: 10%;
-      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+      box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
 }
 .h1-perfil{
     color: black;
     font-family: 'Segoe UI';
-    font-size: 25px;
+    font-size: 20px;
 }
 .h2-perfil{
     color: rgb(3, 3, 3);
     font-family: arial;
-    font-size: 20px;
+    font-size: 15px;
 }
 .p-perfil{
     color: black ;
-    font-size: 20px;
+    font-size: 18px;
     
 }
 .foto-perfil{
@@ -179,7 +187,7 @@ p{
     text-align: center;
 }
 .footer{
-    background-color: #0A1931 ;
+    background-color: #1e3252 ;
 }
 .h1-footer{
     color: rgb(231, 231, 231);
@@ -196,4 +204,28 @@ p{
     margin: 10px;   
    justify-content: space-around;
     text-align: center;
+}
+.icons-index{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+}
+.hr-index{
+    display: flex;
+    margin: 5px;  
+}
+.h3-index{
+    font-family: 'Segoe UI';
+    color: rgb(139, 139, 139);
+    font-size: 12px;
+    text-align: center;
+}
+.img-footer{
+    
+    display: flex;
+    margin: 20px 20px;   
+   justify-content: space-around;
+    text-align: center;
+
 }
